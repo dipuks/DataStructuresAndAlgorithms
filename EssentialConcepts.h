@@ -17,6 +17,8 @@ class EssentialConcepts
 		int id;
 	};
 
+	int* ptr;
+
 public:
 
 	//Integer Array Initialization using random values.
@@ -53,6 +55,32 @@ public:
 		cout << "Age is " << ms1.age << endl;
 		cout << "ID is " << ms1.id << endl;
 		cout << "Name is " << ms1.name << endl;
+	}
+
+	//Pointer intialization.
+	void initPointer()
+	{
+		int a = 550;
+		ptr = &a;
+
+		cout << "Pointer value is " << *ptr << endl;
+
+		//Dynamic memory allocation for integer pointer.
+		int* arr = new int[SIZE];
+
+		//Array being initialized with random values.
+		for (int i = 0; i < SIZE; i++)
+		{
+			arr[i] = rand();
+		}
+
+		//Array values are being printed.
+		for(int i = 0; i < SIZE; i++)
+		{
+			cout << "Array = " << arr[i ]<< endl;
+		}
+
+		delete[] arr; // Heap memory deleted.
 	}
 
 };

@@ -7,7 +7,7 @@
 int main()
 {
     EssentialConcepts ec;
-    ec.initStruct();
+    ec.initPointer();
 
 
 
