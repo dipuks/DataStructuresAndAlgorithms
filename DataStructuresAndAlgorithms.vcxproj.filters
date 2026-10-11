@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Arrays and Hashing">
+      <UniqueIdentifier>{29E7B327-8129-49E5-80B0-972B34554281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Interview Topics">
+      <UniqueIdentifier>{08BF6A77-D83A-4F51-9276-47DCF74247E0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DataStructuresAndAlgorithms.cpp">
@@ -22,6 +28,48 @@
   <ItemGroup>
     <ClInclude Include="EssentialConcepts.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dsa\arrays_hashing.hpp">
+      <Filter>Header Files\Arrays and Hashing</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dsa\two_pointers.hpp">
+      <Filter>Header Files\Interview Topics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dsa\sliding_window.hpp">
+      <Filter>Header Files\Interview Topics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dsa\binary_search.hpp">
+      <Filter>Header Files\Interview Topics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dsa\intervals.hpp">
+      <Filter>Header Files\Interview Topics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dsa\stack.hpp">
+      <Filter>Header Files\Interview Topics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dsa\strings.hpp">
+      <Filter>Header Files\Interview Topics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dsa\linked_lists.hpp">
+      <Filter>Header Files\Interview Topics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dsa\trees.hpp">
+      <Filter>Header Files\Interview Topics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dsa\graphs.hpp">
+      <Filter>Header Files\Interview Topics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dsa\heaps.hpp">
+      <Filter>Header Files\Interview Topics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dsa\backtracking.hpp">
+      <Filter>Header Files\Interview Topics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dsa\dynamic_programming.hpp">
+      <Filter>Header Files\Interview Topics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dsa\greedy.hpp">
+      <Filter>Header Files\Interview Topics</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
